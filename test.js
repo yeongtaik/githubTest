@@ -40,7 +40,7 @@ function checkIPD() {
         }
     });*/
 }
-/*
+
 function checkSNEE1() {
 
     var x = undefined + 0;
@@ -169,7 +169,7 @@ function checkIPD3() {
         }
     });
 }
-*/
+
 checkSNEE();
 checkIAL();
 checkSNAS();
