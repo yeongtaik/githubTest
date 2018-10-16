@@ -5,21 +5,9 @@ function CWE_398() { // IDENTICAL_BRANCHES
         y = x;
     }
 }
-function CWE_476() { // NULL_POINTER
-    var obj;
-    var y = obj.x;
-    var z = obj.y;
-    console.log(y,z);
-}
 
 function CWE_476() { // NULL_POINTER
-    var obj;
-    var y = obj.x;
-    console.log(y);
-}
-
-function CWE_476() { // NULL_POINTER
-    var obj;
+    var obj = {};
     var y = obj.x;
     console.log(y);
 }
